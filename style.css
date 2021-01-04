@@ -1,0 +1,114 @@
+.top{
+    margin: 30px 5px;
+}
+.top_item{
+    text-align: center;
+}
+.top_contact{
+    width:30px;
+}
+.top_contact_text a{
+    text-decoration: none;
+    color:rgb(70, 70, 70);
+    font-weight: 500;
+}
+.top_contact_text a:hover{
+    text-decoration: none;
+    color:red;
+}
+.navbar{
+    background-color: rgb(70, 70, 70);
+}
+.nav-link{
+    color:white!important;
+}
+.nav-link:hover{
+    color:red!important;
+}
+.navbar-nav{
+    margin:10px 50px;
+}
+.header_img{
+    background-image: url("img/header_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_img_text span{
+    color:white;
+    font-size: 3em;
+    font-weight: 600;
+    background-color: #dc3545;
+    padding:5px;    
+    z-index: 3;
+}
+.header_img_btn{
+    position: absolute;
+    bottom:100px;
+    z-index: 3;
+}
+.contact_1{
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.contact_1 span{
+    color:red;
+}
+.contact_1_btn{
+    text-align: center;
+    padding: 50px 5px;
+}
+.del_img{
+    text-align: center;
+    padding: 20px;
+}
+.del_img img {
+    border-radius: 5px;
+    filter:grayscale(0.8);
+    transition: 0.5s;   
+}
+.del_img img:hover{
+    filter:grayscale(0) 
+}
+.quest{
+    text-align: center;
+}
+.quest_1{
+    padding: 150px 5px;
+}
+.quest_1 h2{
+    text-align: center;
+    color:#dc3545;
+    margin:30px 3px;
+    border-radius: 5px;
+}
+.contact_2{
+    margin:20px 5px;
+    text-align: center;
+}
+.contact_2 h2{
+    color:#dc3545;
+}
+.contact_3 h3{
+    color:#dc3545;
+}
+.photo_img{
+    text-align: center;
+    margin:5px 0px;
+    box-sizing: border-box;
+}
+.photo_img img{
+    width:80%;
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px silver;
+    border-radius:5px;
+}
+.photo_img img:hover{
+    width:90%;
+}
